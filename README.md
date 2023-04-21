@@ -25,7 +25,7 @@ Clone the repository and catkin_make:
 ```
 
 ---
-## Original Introduction from the Official Project
+# Original Introduction from the Official Project
 
 <img src="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/support_files/image/vins_logo.png" width = 55% height = 55% div align=left />
 <img src="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/support_files/image/kitti.png" width = 34% height = 34% div align=center />

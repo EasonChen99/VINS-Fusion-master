@@ -1,5 +1,31 @@
 # VINS-Fusion
 ## An optimization-based multi-sensor state estimator
+This project is forked from [VINS-Fusion](https://github.com/HKUST-Aerial-Robotics/VINS-Fusion) and revised properly for my personal use.
+
+## 1.Install
+### 1.1 **Ubuntu** and **ROS**
+Ubuntu 64-bit 18.04.
+ROS Melodic. [ROS Installation](http://wiki.ros.org/ROS/Installation)
+
+
+### 1.2. **Ceres Solver**
+Follow [Ceres Installation](http://ceres-solver.org/installation.html).
+
+Note: install [ceres-solver-1.14.0](https://codeload.github.com/ceres-solver/ceres-solver/tar.gz/refs/tags/1.14.0
+) rather than ceres-solver-2.1.0.
+
+### 1.3. Build VINS-Fusion
+Clone the repository and catkin_make:
+```
+    cd ~/catkin_ws/src
+    git clone https://github.com/HKUST-Aerial-Robotics/VINS-Fusion.git
+    cd ../
+    catkin_make
+    source ~/catkin_ws/devel/setup.bash
+```
+
+---
+## Original Introduction from the Official Project
 
 <img src="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/support_files/image/vins_logo.png" width = 55% height = 55% div align=left />
 <img src="https://github.com/HKUST-Aerial-Robotics/VINS-Fusion/blob/master/support_files/image/kitti.png" width = 34% height = 34% div align=center />
